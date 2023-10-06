@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisSampleApp", "RedisSampleApp\RedisSampleApp.csproj", "{7012CE23-204F-4541-8833-B9B8E60EF83F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedisSampleApp", "RedisSampleApp\RedisSampleApp.csproj", "{7012CE23-204F-4541-8833-B9B8E60EF83F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7DF70AF6-82A5-4433-858A-2E08CEDB86BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{664AD790-4E93-4C70-A9EE-93EE32690F3A}"
+	ProjectSection(SolutionItems) = preProject
+		app-deployment.yaml = app-deployment.yaml
+		redis-deployment.yml = redis-deployment.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{7012CE23-204F-4541-8833-B9B8E60EF83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7012CE23-204F-4541-8833-B9B8E60EF83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7012CE23-204F-4541-8833-B9B8E60EF83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF70AF6-82A5-4433-858A-2E08CEDB86BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF70AF6-82A5-4433-858A-2E08CEDB86BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF70AF6-82A5-4433-858A-2E08CEDB86BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF70AF6-82A5-4433-858A-2E08CEDB86BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

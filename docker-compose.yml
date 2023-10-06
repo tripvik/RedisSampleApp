@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  redissampleapp:
+    image: ${DOCKER_REGISTRY-}redissampleapp
+    build:
+      context: .
+      dockerfile: RedisSampleApp/Dockerfile
+
+
