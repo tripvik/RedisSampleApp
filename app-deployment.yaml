@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: redis-sample-app-container
-        image: [DOCKER_IMAGE_NAME]
+        image: tripvik1.azurecr.io/redissampleapp:latest
         ports:
         - containerPort: 80
 
